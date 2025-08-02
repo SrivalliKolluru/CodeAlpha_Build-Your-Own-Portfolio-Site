@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="hero">
+  <h1>SRIVALLI KOLLURU</h1>
+  <p>Web Developer | Designer | Problem Solver</p>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a recent Computer Science and Engineering graduate with a strong passion for 
+  technology, problem-solving, and continuous learning. Throughout my academic journey, 
+  I have built a solid foundation in programming languages like Java, Python, and C++, 
+  along with hands-on experience in web development, data structures, algorithms, and 
+  database management. I have worked on academic and personal projects that reflect my 
+  ability to apply theoretical concepts to real-world solutions. As a quick learner and 
+  team player, I am eager to begin my professional journey in a challenging and 
+  growth-oriented environment where I can contribute to innovative software development 
+  and keep evolving as a tech professional..</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>IoT-based Smart Cradle</h3>
+      <p>An IoT-based Smart Cradle is designed to monitor and soothe infants 
+      automatically. It includes sensors to detect baby movement, crying, 
+      temperature, and humidity. When the baby cries, the cradle can rock 
+      gently and alert parents via a connected mobile app. It ensures real-time 
+      health and environment monitoring for newborns. This system offers enhanced 
+      safety, comfort, and peace of mind for caregivers. It also stores historical data
+      for health tracking and timely intervention. The cradle's automation reduces manual effort 
+      and enhances infant care efficiency.
+
+</p>
+    </div>
+    <div class="project-card">
+      <h3>ML-based Automated Road Damaged Detection Using UAV Images And DL Techniques</h3>
+      <p>Automated Road Damage Detection using UAV 
+      images and deep learning aims to identify cracks, potholes, 
+      and other surface issues efficiently. UAVs (drones) capture 
+      high-resolution road images from various angles. Deep learning models 
+      like CNNs process these images to detect and classify types of 
+      damage accurately. This system reduces manual inspection time 
+      and increases road maintenance efficiency. 
+      It supports smart infrastructure management by enabling timely 
+      repairs and cost-effective operations.
+
+</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="skills-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Responsive Design</li>
+    <li>Python</li>
+    <li>SQL</li>
+  </ul>
+</section>
+
+<section id="resume">
+  <h2>Resume</h2>
+  <p><a href="https://drive.google.com/file/d/1XXfV_glK2OAbEVnUeNhUZhPCMaChcXoP/view?usp=drivesdk" download>Download My Resume</a></p>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  
+</section>
+
+<footer>
+  <p>Name:Srivalli Kolluru</p>
+  <p>Email:srivallikolluru4@gmail.com</p>
+  <p>Linkedin:www.linkedin.com/in/srivalli-kolluru</p>
+
+  
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
