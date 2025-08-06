@@ -1,0 +1,26 @@
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+window.addEventListener("scroll", () => {
+    document.querySelectorAll("section").forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        const sectionHeight = section.offsetHeight;
+        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+            section.style.opacity = 1;
+            section.style.transform = "translateY(0)";
+        }
+    });
+});
+window.onload = () => {
+    document.querySelectorAll("section").forEach(section => {
+        section.style.opacity = 0;
+        section.style.transform = "translateY(50px)";
+        section.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+    });
+};
